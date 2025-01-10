@@ -1,4 +1,4 @@
-# New Project
+# README Generator
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -6,30 +6,31 @@
 
 ## Description
 
-Description goes here.
+This project can generate a README file.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
-Installation Instructions go here.
+Clone the repo.
 
 ## Usage
 
-Usage goes here.
+Type in 'node index.js' into your terminal.
 
 ## Credits
 
-Contributers go here.
+IIMasterXII
 
 ## Tests
 
-Testing goes here.
+No testing.
 
 ## Questions
 
