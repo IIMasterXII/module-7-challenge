@@ -65,43 +65,42 @@ function writeToFile(fileName, data) {
 const generateREADME = ({title, description, installation, usage, contribute, test, license, username, email}) => 
     `# ${title}
 
-    ${license === 'MIT' ? '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)' : ''}
-    ${license === 'Apache' ? '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)' : ''}
-    ${license === 'GPL' ? '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)' : ''}
+${license === 'MIT' ? '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)' : ''}
+${license === 'Apache' ? '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)' : ''}
+${license === 'GPL' ? '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)' : ''}
 
-    ## Description
+## Description
 
-    ${description}
+${description}
 
-    ## Table of Contents
+## Table of Contents
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-    ## Installation
+## Installation
 
-    ${installation}
+${installation}
 
-    ## Usage
+## Usage
 
-    ${usage}
+${usage}
 
-    ## Credits
+## Credits
 
-    ${contribute}
+${contribute}
 
-    ## Tests
+## Tests
 
-    ${test}
+${test}
 
-    ## Questions
+## Questions
 
-    https://github.com/${username}
+https://github.com/${username}
     
-    Please contact ${email} for additional questions.
-    `;
+Please contact ${email} for additional questions.`;
 
 // TODO: Create a function to initialize app
 function init() {
