@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
 }
 
 const generateREADME = ({title, description, installation, usage, contribute, test, license, username, email}) => 
-    `#${title}
+    `# ${title}
 
     ${license === 'MIT' ? '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)' : ''}
     ${license === 'Apache' ? '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)' : ''}
@@ -84,19 +84,19 @@ const generateREADME = ({title, description, installation, usage, contribute, te
 
     ${installation}
 
-    ##Usage
+    ## Usage
 
     ${usage}
 
-    ##Credits
+    ## Credits
 
     ${contribute}
 
-    ##Tests
+    ## Tests
 
     ${test}
 
-    ##Questions
+    ## Questions
 
     https://github.com/${username}
     

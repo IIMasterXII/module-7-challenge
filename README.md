@@ -1,4 +1,4 @@
-#New Project
+# New Project
 
     ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
     
@@ -6,7 +6,7 @@
 
     ## Description
 
-    This is a test.
+    This is a description.
 
     ## Table of Contents
 
@@ -17,21 +17,21 @@
 
     ## Installation
 
-    Just download it.
+    This is for installation.
 
-    ##Usage
+    ## Usage
 
-    Use it.
+    This is for usage.
 
-    ##Credits
+    ## Credits
 
-    IIMasterXII
+    Names go here.
 
-    ##Tests
+    ## Tests
 
-    Test it.
+    This is how you test.
 
-    ##Questions
+    ## Questions
 
     https://github.com/IIMasterXII
     
